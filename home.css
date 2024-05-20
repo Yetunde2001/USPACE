@@ -1,0 +1,113 @@
+/* BODY */
+body{
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+/* LANDING PAGE */
+.home-landing-page{
+  color: black;
+  width: 100%;
+  height: 800px;
+  Background: URL("Images/Landing-page-img.svg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* HEADER */
+.header{
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid 1px rgba(0,0,0,0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-right: 60px;
+  margin-left: 60px;
+  z-index: 1000;
+}
+.left-section{
+  justify-content: center;
+}
+.middle-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul{
+  list-style: none;
+}
+nav li{
+  display: inline-block;
+  margin-right: 60px;
+}
+a{
+font-size: 16px;
+font-weight: 500;
+text-decoration: none;
+color: black;
+}
+.header-icon{
+  margin-right: 30px;
+}
+.uspace-logo{
+  margin-top: 18px;
+}
+
+/* BUTTONS */
+.sign-in-btn{
+  padding: 8px 35px;
+  width: width 117px;
+  height: 40px;
+  border:none;
+  border-radius: 4px;
+  background-color: #314C6E;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition:opacity 0.15s background-color 0.15s;
+font-size: 15px;
+font-weight: 100;
+
+}
+button.sign-in-btn:hover{
+opacity: 0.8;
+}
+button.sign-in-btn:active{
+  background-color: #1D3149;
+}
+button.shop-now{
+  font-size: 12px;
+  background-color: transparent;
+  border: solid 1px black;
+  border-radius: 2px;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+/* TEXTS */
+.homepage-body-text{
+  position: absolute;
+  right: 60px;
+  top: 420px;
+  width: 420px;
+}
+h1{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.1;
+}
+h5{
+  font-weight:400;
+  line-height: 1.2;
+  font-size: 12px;
+}
